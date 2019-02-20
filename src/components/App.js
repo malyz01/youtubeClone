@@ -50,8 +50,6 @@ class App extends React.Component {
       next: response.data.nextPageToken,
       prev: response.data.prevPageToken ? response.data.prevPageToken : ""
     });
-
-    console.log(this.state);
   };
 
   onVideoSelect = video => {
